@@ -21,42 +21,51 @@ body {
     background-image: url(../assets/hero.png);
 }
 
-.center-hero > div {
+.center-hero>div {
     width: 80%;
     text-align: center;
 }
 
-.center-hero > div > h1 {
+.center-hero>div>h1 {
     color: #000000;
-    font-size: 5vw; /* Responsive font size based on viewport width */
+    font-size: 5vw;
+    /* Responsive font size based on viewport width */
     text-align: center;
-    margin-bottom: 20px; /* Added margin for separation */
+    margin-bottom: 15px;
+    /* Added margin for separation */
 }
 
-.center-hero > div > img {
+.center-hero>div>img {
     position: relative;
-    top: -3vw; /* Responsive top margin based on viewport width */
-    width: 10vw; /* Responsive image width based on viewport width */
+    top: -3vw;
+    /* Responsive top margin based on viewport width */
+    width: 10vw;
+    /* Responsive image width based on viewport width */
 }
 
 .coming-soon {
     background: #eb3737;
     color: #fff;
-    width: 20vw; /* Responsive width based on viewport width */
-    padding: 1.6vw; /* Responsive padding based on viewport width */
+    width: 20vw;
+    /* Responsive width based on viewport width */
+    padding: 1.6vw;
+    /* Responsive padding based on viewport width */
     border-radius: 20px;
-    margin-top: 20px; /* Adjusted margin for better separation */
+    margin-top: 20px;
+    /* Adjusted margin for better separation */
 }
 
-.coming-soon > p {
-    font-size: 1.6vw; /* Responsive font size based on viewport width */
+.coming-soon>p {
+    font-size: 1.6vw;
+    /* Responsive font size based on viewport width */
     font-weight: 600;
 }
 
 .join-waitlist {
     background: #eb3737;
     color: #fff;
-    width: 50%; /* Responsive width based on parent container */
+    width: 50%;
+    /* Responsive width based on parent container */
     max-width: 200px;
     padding: 1.2% 0;
     border-radius: 20px;
@@ -66,12 +75,14 @@ body {
     display: block;
 }
 
-.our-mission > h3 {
+.our-mission>h3 {
     color: #000000;
-    font-size: 3vw; /* Responsive font size based on viewport width */
+    font-size: 3vw;
+    /* Responsive font size based on viewport width */
     font-weight: 200;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 20px; /* Added margin for separation */
+    margin-bottom: 20px;
+    /* Added margin for separation */
 }
 
 .our-mission {
@@ -88,22 +99,27 @@ body {
 
 /* Media */
 @media screen and (max-width: 768px) {
-    .center-hero > div {
+    .center-hero>div {
         width: 90%;
     }
+
     .coming-soon {
         width: 80%;
     }
-    .center-hero > div > img {
+
+    .center-hero>div>img {
         width: 30%;
     }
+
     .join-waitlist {
         width: 80%;
     }
+
     .our-mission {
         width: 90%;
     }
-    .our-mission > h3 {
+
+    .our-mission>h3 {
         font-size: 4vw;
     }
 }
